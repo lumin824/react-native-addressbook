@@ -5,6 +5,6 @@ import {
 
 let { AddressBookModule } = NativeModules;
 
-export var test = AddressBookModule.test;
+export var list = AddressBookModule.list;
 
 export var AddressBook = requireNativeComponent('AddressBook');
